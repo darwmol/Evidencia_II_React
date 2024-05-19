@@ -1,0 +1,41 @@
+.truck-icon3 {
+  height: 44px;
+  width: 44px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heading19,
+.text1 {
+  position: relative;
+  line-height: 34px;
+  font-weight: 600;
+}
+.text1 {
+  font-size: var(--font-size-base);
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--text);
+}
+.icon-box-1,
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.icon-box-1 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--primary);
+  font-family: var(--heading-3);
+}
+@media screen and (max-width: 450px) {
+  .heading19 {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+}

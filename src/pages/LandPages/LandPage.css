@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.TiendaXpress1 {
+  margin: 0;
+  font-weight: 400;
+  font-family: inherit;
+  font-family: "Poetsen One", sans-serif;
+}
+.TiendaXpress-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-36xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-div {
+  width: 992px;
+  height: 881px;
+  position: relative;
+  border-radius: var(--br-421xl-5);
+  background-color: #001A23;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frame-icon {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+  width: 550px;
+  height: 550px;
+  top: 110px;
+  left: 90.0px;
+  border-radius: 12.23px;
+  object-fit: contain;
+}
+
+.productos2 {
+  width: 145px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.inicio-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.rectangle-group {
+  width: 992px;
+  margin: 0 !important;
+  position: absolute;
+  top: -25px;
+  right: -295px;
+  border-radius: var(--br-421xl-5);
+  background-color: #003049;
+  flex-direction: column;
+  padding: 76px 325px 468.5px 347px;
+  gap: 228.3px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-palanquin-dark);
+}
+.landpage,
+.landpage-inner,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.landpage-inner {
+  width: 632px;
+  flex-direction: row;
+  padding: 0 23px;
+  max-width: 100%;
+}
+.landpage {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 56px var(--padding-36xl) 44px;
+  gap: 123px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: #005f73;
+  font-family: var(--font-jejugothic);
+}
+@media screen and (max-width: 1050px) {
+  .colombia-store1 {
+    font-size: var(--font-size-19xl);
+  }
+  .inicio-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .landpage {
+    gap: 61px;
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}

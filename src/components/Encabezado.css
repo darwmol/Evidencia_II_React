@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.store-description {
+  margin: 0;
+  position: relative;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color:black;
+}
+.store-frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-24xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heading18 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 34px;
+  font-weight: 600;
+  font-family: var(--heading-3);
+  color: var(--white);
+  text-align: left;
+}
+.icon-wrapper1,
+.icon5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  color: #fff;
+}
+.icon5 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl) var(--padding-48xl);
+  background-color: #005f73;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.icon5:hover {
+  background-color: #0a9396;
+}
+.icon-wrapper1 {
+  width: 494px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.enviar-mensaje {
+  position: relative;
+}
+.enviar-mensaje-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-palanquin-dark);
+}
+.frame-parent3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-jejugothic);
+}

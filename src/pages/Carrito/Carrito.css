@@ -1,0 +1,53 @@
+.titlecarrito {
+  font-size: 30px;
+  padding: 20px var(--padding-36xl) 44px;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  color: #003049;
+}
+
+.listacarrito {
+  font-size: 15px;
+  padding: 20px var(--padding-36xl) 44px;
+  font-family: "Cabin", sans-serif;
+  color: #010203;
+}
+
+.producto {
+  border: 0px solid #005f73;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+
+  overflow: hidden;
+  align-items: center;
+  font-family: "Cabin", sans-serif;
+  color: #003049;
+}
+
+.imagecarrito {
+  width: 50px;
+}
+.textproducto {
+  color: black;
+}
+
+.priceproducto {
+  color: #8c001a;
+}
+
+.comprarlink {
+  cursor: pointer;
+  padding: 20px;
+  background-color: #800f2f;  
+  border-radius: var(--br-81xl);
+  text-decoration: none;
+  color: #fff;
+  font-family: "Cabin", sans-serif;
+  font-size: 25px;
+}
+.comprarlink:hover {
+  background-color: #c9184a;
+}
+.prueba {
+  text-align: center;
+}
