@@ -9,14 +9,14 @@ Para correr el proyecto se debe clonar el repositorio y correr los siguientes co
 // Para clonar el repositorio
 git clone https://github.com/darwmol/Evidencia_II_React.git
 // Para entrar al directorio del proyecto
-cd curso-react
+cd Evidencia_II_React
 npm install
 npm run dev
 ```
 ## Demostración:
 
 Para ingresar a la demostración de la evidencia, puede ingresar al link:
-[text](https://tiendaxpress.netlify.app/)
+https://tiendaxpress.netlify.app/
 
 
 Darwin Molina
